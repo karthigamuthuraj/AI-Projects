@@ -1,4 +1,4 @@
-# Medical Insurance Charges Prediction Project
+# Medical Insurance Charges Prediction
 
 ## 1. Introduction
 Predicting insurance prices is a crucial task for insurance companies to assess risk and determine premiums. This project aims to build a machine learning model to predict insurance charges based on various parameters using a given dataset.
@@ -47,7 +47,14 @@ We will evaluate the following models:
 - Split the data into training and testing sets and train the models.
 
 ## 8. Model Evaluation
-- Evaluate the models using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared (R²).
+
+|    | Model             | MAE     | MSE         | R²        |
+|----|-------------------|---------|-------------|-----------|
+| 0  | Linear Regression | 4213.48 | 3.39793e+07 | 0.78113   |
+| 1  | SVR               | 8597.35 | 1.66235e+08 | -0.070765 |
+| 2  | Decision Tree     | 3175.98 | 4.67887e+07 | 0.698621  |
+| 3  | Random Forest     | 2540.1  | 2.19508e+07 | 0.858609  |
+
 
 ## 9. Hyperparameter Tuning
 - Use Grid Search or Random Search to find the best hyperparameters for the selected model(s).
@@ -59,3 +66,7 @@ We will evaluate the following models:
 - **Save the Trained Model**: Saved the best model using pickle.
 - **Create a Streamlit App**: Created a Streamlit app to take user inputs and display the prediction.
 - **Run the Streamlit App**: Deployed the app locally by running the Streamlit server.
+  ![image](images/app.png)
+
+## Conclusion
+Based on the model evaluation results, the Random Forest model outperformed other models with the lowest Mean Absolute Error (MAE), Mean Squared Error (MSE), and highest R-squared (R²) score. This indicates that the Random Forest model is the most suitable for predicting insurance charges in this dataset.
