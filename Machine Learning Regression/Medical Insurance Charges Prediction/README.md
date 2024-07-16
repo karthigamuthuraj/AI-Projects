@@ -1,5 +1,14 @@
 # Medical Insurance Charges Prediction
 
+## Technologies and Tools Used
+- Python
+- Jupyter Notebook
+- scikit-learn
+- matplotlib
+- seaborn
+- Streamlit
+
+
 ## 1. Introduction
 Predicting insurance prices is a crucial task for insurance companies to assess risk and determine premiums. This project aims to build a machine learning model to predict insurance charges based on various parameters using a given dataset.
 
@@ -67,6 +76,7 @@ We will evaluate the following models:
 - **Create a Streamlit App**: Created a Streamlit app to take user inputs and display the prediction.
 - **Run the Streamlit App**: Deployed the app locally by running the Streamlit server.
   ![image](images/app.png)
+
 
 ## Conclusion
 Based on the model evaluation results, the Random Forest model outperformed other models with the lowest Mean Absolute Error (MAE), Mean Squared Error (MSE), and highest R-squared (R²) score. This indicates that the Random Forest model is the most suitable for predicting insurance charges in this dataset.
