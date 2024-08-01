@@ -39,6 +39,8 @@ To run the WhatsApp Chat Analyzer, ensure you have the following installed:
 - TextBlob
 - Emoji
 
+## Project Demo
+![image](project_demo.png)
 
 ## Summary
 The WhatsApp Chat Analyzer provides a comprehensive suite of tools for analyzing WhatsApp chat data. By leveraging various data processing and visualization techniques, it enables users to gain insights into chat dynamics, participant behavior, and trends. Whether you're looking to understand chat activity patterns, analyze participant contributions, or visualize message sentiments, this tool offers a robust solution for in-depth chat analysis.
