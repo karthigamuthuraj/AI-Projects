@@ -44,7 +44,9 @@ pip install -r requirements.txt
 
 ## Flowchart
 
-The following flowchart describes the overall process of the Seq2Seq Translation Model: ![image](images/flo.png)
+The following flowchart describes the overall process of the Seq2Seq Translation Model: 
+
+ ![Flowchart](images/flo.PNG)
 
 
 1. **Start**
