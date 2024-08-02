@@ -24,16 +24,6 @@ The Translation Model is a machine translation system designed to translate Engl
 - **NumPy**: Library for numerical operations.
 - **Gensim**: Library for Word2Vec model loading and manipulation.
 
-## Project Structure
-
-- **`data/engtamilTrain.csv`**: Dataset containing English and Tamil sentence pairs.
-- **`models/preprocess.py`**: Contains functions for loading data, preprocessing text, and creating tokenizers.
-- **`models/train.py`**: Contains functions to create and train the Seq2Seq model.
-- **`models/predict.py`**: Contains functions for making predictions using the trained model.
-- **`embeddings/__init__.py`**: Contains functions for loading Word2Vec models and creating embedding matrices.
-- **`main.py`**: Main script that ties everything together and executes the training and prediction pipeline.
-- **`requirements.txt`**: List of dependencies required for the project.
-
 ## Requirements
 
 Ensure you have the necessary Python packages installed. Use the `requirements.txt` file to install them:
@@ -84,34 +74,6 @@ The following flowchart describes the overall process of the Seq2Seq Translation
 
 9. **End**
    - Conclude the process.
-
-## Usage
-
-1. **Prepare the Data**
-
-   Place your dataset in the `data` folder. Ensure it is named `engtamilTrain.csv` and contains columns `en` (English sentences) and `ta` (Tamil sentences).
-
-2. **Load Pre-trained Word2Vec Models**
-
-   Ensure you have pre-trained Word2Vec models saved as `engmodel.bin` and `tammodel.bin` in the `embeddings` directory.
-
-3. **Run the Main Script**
-
-   Execute `main.py` to run the entire pipeline. This script will:
-   - Load and preprocess the data.
-   - Load pre-trained Word2Vec models.
-   - Create and train the Seq2Seq model.
-   - Make predictions on a sample input sentence.
-
-   Run the script using:
-
-   ```bash
-   python main.py
-   ```
-
-4. **Inspect Results**
-
-   The script will output the translated Tamil sentence for a sample English input. You can modify the `input_sentence` in `main.py` to test different sentences.
 
 ## Code Structure
 
